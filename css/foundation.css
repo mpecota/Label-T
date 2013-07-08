@@ -1,3 +1,20 @@
+/*Mark CSS*/
+.section-1 {background: #afb0b5;
+width:100%;
+height:500px;
+}
+.top-bar .name a:hover {
+         color:#000;
+      }
+
+.large-12 h1{
+  margin-top:20px;
+
+}
+.large-12 span{
+  color:#08f1c4;
+
+}
 *,
 *:before,
 *:after {
@@ -1061,10 +1078,10 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-style: normal;
-  color: #222222;
+  color: #fff;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
   margin-bottom: 0.5em;
@@ -1222,7 +1239,7 @@ blockquote p {
     line-height: 1.4; }
 
   h1 {
-    font-size: 2.75em; }
+    font-size: 3.0em; }
 
   h2 {
     font-size: 2.3125em; }
@@ -2610,7 +2627,7 @@ form.custom {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #111111; }
+  background: #b8b9bd; }
   .contain-to-grid .top-bar {
     margin-bottom: 0; }
 
@@ -2626,8 +2643,9 @@ form.custom {
   height: 45px;
   line-height: 45px;
   position: relative;
-  background: #111111;
-  margin-bottom: 1.875em; }
+  background: #afb0b5;
+ }
+
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -2649,16 +2667,20 @@ form.custom {
     height: 45px;
     margin: 0;
     font-size: 16px; }
+
     .top-bar .name h1 {
       line-height: 45px;
       font-size: 1.0625em;
       margin: 0; }
+
       .top-bar .name h1 a {
         font-weight: bold;
         color: white;
         width: 50%;
         display: block;
-        padding: 0 15px; }
+        padding: 0 15px; }  
+
+      
   .top-bar .toggle-topbar {
     position: absolute;
     right: 0;
@@ -2715,7 +2737,7 @@ form.custom {
     width: 100%;
     height: auto;
     display: block;
-    background: #222222;
+    background: #afb0b5;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -2735,7 +2757,7 @@ form.custom {
     font-weight: bold;
     background: #222222; }
     .top-bar-section ul li > a.button {
-      background: #2ba6cb;
+      background: #2bf0c5;
       font-size: 0.8125em; }
       .top-bar-section ul li > a.button.hover {
         background: #2284a1; }
@@ -2752,11 +2774,11 @@ form.custom {
       .top-bar-section ul li > a.button.alert.hover {
         background: #970b0e; }
   .top-bar-section ul li.hover > a {
-    background: #090909;
-    color: white; }
+  
+    color: #08f1c4; }
   .top-bar-section ul li.active > a {
-    background: #090909;
-    color: white; }
+    
+    color: #08f1c4 }
   .top-bar-section .has-form {
     padding: 15px; }
   .top-bar-section .has-dropdown {
@@ -2813,7 +2835,7 @@ form.custom {
 
 @media only screen and (min-width: 58.75em) {
   .top-bar {
-    background: #111111;
+    background: #afb0b5;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -2836,7 +2858,7 @@ form.custom {
       position: relative;
       top: 8px; }
     .top-bar.expanded {
-      background: #111111; }
+      background: #afb0b5; }
 
   .contain-to-grid .top-bar {
     max-width: 62.5em;
@@ -2858,7 +2880,7 @@ form.custom {
     .top-bar-section li a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #111111; }
+      background: #afb0b5; }
       .top-bar-section li a:not(.button).hover {
         background: black; }
     .top-bar-section .has-dropdown > a {
@@ -2904,13 +2926,12 @@ form.custom {
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #2b2b2b;
-      border-left: solid 1px black;
+      
       clear: none;
       height: 45px;
       width: 0px; }
     .top-bar-section .has-form {
-      background: #111111;
+      background: #b8b9bd;
       padding: 0 15px;
       height: 45px; }
     .top-bar-section ul.right li .dropdown {
