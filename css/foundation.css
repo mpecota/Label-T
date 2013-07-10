@@ -1,4 +1,40 @@
 /*Mark CSS*/
+#splash {
+  background-color: #AFB0B5;
+  height: 570px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  #splash #splash_text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  #splash #ie_left_splash, #splash #ie_right_splash, #splash #home_animation, #splash #boss_bg {
+    position: absolute; }
+  #splash #boss_bg {
+    background-color: black;
+    display: none;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+  #splash #ie_left_splash {
+    left: 0;
+    bottom: 0; }
+  #splash #ie_right_splash {
+    right: 0;
+    bottom: 0; }
+  #splash #home_animation {
+    top: 0;
+    left: 0; }
+  #splash h1 {
+    position: relative;
+    margin: 0px;
+    top: 27.5%; }
+
 .section-1 {background: #afb0b5;
 width:100%;
 height:500px;
