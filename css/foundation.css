@@ -1,7 +1,7 @@
 /*Mark CSS*/
 #splash {
   background-color: #AFB0B5;
-  height: 570px;
+  
   overflow: hidden;
   position: relative;
   width: 100%; }
@@ -30,10 +30,29 @@
   #splash #home_animation {
     top: 0;
     left: 0; }
-  #splash h1 {
+  #splash h2  {
     position: relative;
-    margin: 0px;
-    top: 27.5%; }
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:200;
+   }
+
+    .fadein {
+  background-color: #fff;
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; 
+
+}
+
+   .fadein h2 {
+  color:#000;
+   }
+
+   .fadeintext {
+    padding-top:50px;
+   }
+
 
 .section-1 {background: #afb0b5;
 width:100%;
@@ -148,7 +167,7 @@ select {
   margin-right: auto;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 62.5em;
+ /* max-width: 62.5em;*/
   *zoom: 1; }
   .row:before, .row:after {
     content: " ";
@@ -1119,9 +1138,8 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Source Sans Pro", sans-serif;
-  font-weight: bold;
-  font-style: normal;
+  font-family: 'Source Sans Pro', sans-serif;
+font-weight:700;
   color: #fff;
   text-rendering: optimizeLegibility;
   margin-top: 0.2em;
